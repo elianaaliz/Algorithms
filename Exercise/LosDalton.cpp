@@ -34,27 +34,6 @@ int main() {
 	cin >> n;
 
 	while (n != 0) {//num de personajes no es vacio para terminar
-	/*	bool ok = true;
-		if (n >= 2) {
-			long long int altura = 0;
-			cin >> altura;
-			long long int aux = altura;
-			int i = 0;
-			while (i < n-1) {
-				cin >> altura;
-				if (altura < aux) { ok == false; }
-				aux = altura;
-				i++;
-			}
-		}
-		else {
-			ok = false;
-		}
-		if (ok) { cout << "DALTON" << "\n"; }
-		else {
-			cout << "DESCONOCIDOS" << "\n";
-		}
-		cin >> n;*/
 		resuelveCasos(n);
 		cin >> n;
 	}
